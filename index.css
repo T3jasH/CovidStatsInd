@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+#title{
+  position: absolute;
+  left:40%;
+  top: 2.5%;
+}
+#header{
+  position: absolute;
+  height: 10%;
+  width:80%;
+  left:10%;
+  top:12%;
+  background-color: cyan;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#p1{
+  color: red;
+}
+#p2{
+  color:darkblue;
+}
+#p3{
+  color: green;
+}
+#p4{
+  color: rgb(25, 25, 25);
+}
+#p5{
+  color: rgb(60, 60, 60);
+}
+.new{
+  position: relative;
+  bottom: 25%;
+  left:75%;
+}
+#form{
+  position: absolute;
+  top:25%;
+  left:40%;
+  background-color: white;
+}
+.chart{
+  width:45%;
+  height: 60%;
+  
+}
+#outerContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 30%;
+  position: absolute;
+  left:5%;
+  top:45%;
+  border: blue;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.bar{
+  width:90%;
+  height: 60%;
+}
